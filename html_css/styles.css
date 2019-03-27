@@ -1,8 +1,8 @@
-body{background-image: url('aa.jpeg');
+body{background: gray;
 
 }
 table{
-    border: 5px solid black;
+    border: 5px solid red;
     background: yellow;
 }
 .mybutton1{

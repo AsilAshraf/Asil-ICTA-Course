@@ -18,6 +18,28 @@ body{
     background: red;
 }
 </style>
+<script>
+function add()
+{
+var a=document.getElementById("name").value;
+console.log(a);
+var b=document.getElementById("roll").value;
+console.log(b);
+var c=document.getElementById("adm").value;
+console.log(c);
+var d=document.getElementById("col").value;
+console.log(d);
+var e=document.getElementById("user").value;
+console.log(e);
+var f=document.getElementById("pas").value;
+console.log(f);
+var g=document.getElementById("cpas").value;
+console.log(g);
+var h=document.getElementById("dist").value;
+console.log(h);
+
+}
+</script>
 
 </head>
 <body>
@@ -31,36 +53,36 @@ body{
                     <table class="table">
                             <tr>
                                 <td>Name</td>
-                                <td><input type="text"></td>
+                                <td><input type="text" id="name"></td>
                             </tr>
                             <tr>
                                 <td>Roll No</td>
-                                <td><input type="text"></td>
+                                <td><input type="text" id="roll"></td>
                             </tr>
                             <tr>
                                 <td>Admission No</td>
-                                <td><input type="text"></td>
+                                <td><input type="text" id="adm"></td>
                             </tr>
                             <tr>
                                 <td>College</td>
-                                <td><input type="text"></td>
+                                <td><input type="text" id="col"></td>
                             </tr>
                             <tr>
                                 <td>Username</td>
-                                <td><input type="text"></td>
+                                <td><input type="text" id="user"></td>
                             </tr>
                             <tr>
                                 <td>Password</td>
-                                <td><input type="password"></td>
+                                <td><input type="password" id="pas"></td>
                             </tr>
                             <tr>
                                 <td>Confirm Password</td>
-                                <td><input type="password"></td>
+                                <td><input type="password" id="cpas"></td>
                             </tr>
                             <tr>
                                 <td>District</td>
                                 <td>
-                                    <select>
+                                    <select id="dist">
                                         <option>Calicut</option>
                                         <option>Wayanad</option>
                                         <option>Kannur</option>
@@ -69,7 +91,7 @@ body{
                             </tr>
                             <tr>
                                 <td></td>
-                                <td><button class="myregister">Register</button></td>
+                                <td><button type="button" class="myregister" onclick="add();">Register</button></td>
                             </tr>
                         </table>
             </div>
