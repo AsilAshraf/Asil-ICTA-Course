@@ -4,6 +4,8 @@ var num3=add(num1,num2);
 console.log(num3);
 var num4=sub(num1,num3)
 console.log(num4);
+var num5=mul(num1,num2);
+console.log(num5);
 
 function add(x,y)
 {
@@ -15,4 +17,9 @@ function sub(x,y)
 {
     m=x-y;
     return m;
+}
+function mul(x,y)
+{
+    z=x*y;
+    return z;
 }
