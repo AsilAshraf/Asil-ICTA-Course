@@ -1,0 +1,2 @@
+print "Name:AsilAshraf\nPlace:Vadakara\nLanguages: C,C++"
+

@@ -1,0 +1,10 @@
+add1=raw_input("enter ur number1")
+add2=raw_input("enter ur number 2")
+print add1+add2
+print add1-add2
+print add1*add2
+print add1/add2
+print add1%add2
+print add1**add2
+print add1//add2
+
