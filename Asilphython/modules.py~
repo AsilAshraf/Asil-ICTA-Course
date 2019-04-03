@@ -1,0 +1,3 @@
+import math
+value=math.sqrt(26)
+print (value)
