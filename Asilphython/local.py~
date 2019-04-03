@@ -1,0 +1,6 @@
+def test():
+	global y=20
+	print "value of y is",y
+test()
+x=50
+print "item of y is",y 
