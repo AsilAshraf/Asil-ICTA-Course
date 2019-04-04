@@ -1,0 +1,6 @@
+def sum(a,b):     #definition of a function
+	x=a+b     #put tab for under the function
+	return x   #for returning answer
+a=input("enter ur number:")
+b=input("enter ur number")
+print sum(a,b)    #function calling
